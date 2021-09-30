@@ -13,11 +13,11 @@
 
 
 const char* ssid = "FRITZ!Box 7530 MH";                         //Wlan Name
-const char* password = "98019994877288353104";                  //Wlan passwort
+const char* password = "WLANKennwort";                          //Wlan passwort
 
 
-#define BOTtoken "1864242816:AAEMdG9eLb-20zlSPdwxGRxHI5PqCcPoceg" //Token
-#define CHAT_ID "925799516"                                     //chat ID
+#define BOTtoken "Telegram-Token"                               //Token
+#define CHAT_ID "Telegram-Chat-ID"                              //chat ID
 
 #define light 16                                                //linkes Relais, auf 230V Ausgelegt 
 #define door 17                                                 //rechtes Relais
@@ -134,7 +134,6 @@ void handleNewMessages(int numNewMessages) {
 
     if (text == "/door") {
       bot.sendMessage(chat_id, "Herzlich Wilkommen..", "");
-      bot.sendMessage("828180551", "Stefan hat seine Tür geöffnet", "");
       digitalWrite(light, LOW);
       delay(3000);
       digitalWrite(light, HIGH);
@@ -162,7 +161,6 @@ void handlebutton() {
     if (start == frequency_door_alarm) {
       Serial.println("door is open");
       bot.sendMessage(CHAT_ID, "DOOR OPEN", "");
-      bot.sendMessage("828180551", "Stefan hat die Tür offen gelassen", "");
       start = 0;
     }
   }
