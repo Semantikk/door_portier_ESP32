@@ -74,7 +74,20 @@ Dafür empfiehlt es sich, die beiden Kontakte an der Stiftleiste mit einem Jumpe
 <img src="images/reedswitch.png" >
 
 
-
 ### BELL-SENSOR
 
 work in progress
+
+
+<!-- Software -->
+## SOFTWARE
+
+Der Code ist soweit selbsterklärend. 
+Unter Settings sind alle nötigen Einstellungen damit der Bot arbeiten kann. 
+
+Es ist egal mit welchem Netz der ESP verbunden ist. Wichtig ist nur, dass der ESP zugriff zum Internet hat. 
+
+Wie ein Telegrambot konfiguriert wird kann man hier nachlesen:
+https://randomnerdtutorials.com/telegram-control-esp32-esp8266-nodemcu-outputs
+
+
