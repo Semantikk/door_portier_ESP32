@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="gesamt.png" alt="Logo">
+    <img src="images/gesamt.png" alt="Logo">
 
   <h3 align="center">Telegram - Tür Portier</h3>
 </p>
@@ -33,6 +33,10 @@ Eingeplante Funktionen sind:
 Der ESP benötigt 5V, dies kann entweder über den externen Eingang auf der Platine (VCC) Erfolgen oder über den Micro USB eingang des ESPs.
 Die Stromstärke sollte dabei nicht unter 1 Ampere liegen.
 
+der Kondensator ist optional. 
+
+<img src="images/vcc.png" >
+
 ### Löten
 
 Gelötet wird von klein nach groß. 
@@ -54,9 +58,9 @@ Der Rechte dient für den Tür-Summer und geht auf den Steckplatz "DOOR-SUMMER".
 
 der Stecker für den Alarm ist modular. Mit den DIP Schaltern können einzelne Verbindungen getrennt und anders angesteuert werden.
 Vorgesehen ist 
-PIN 1 3V3
-Pin 2 GPIO 14
-Pin 3 GND 
+- Pin 1 3V3
+- Pin 2 GPIO 14
+- Pin 3 GND 
 
 Wird GPIO 14 auf 3v3 kurzgeschlossen erkennt der ESP die Tür als geschlossen, liegt keine Spannung an als offen. 
 Hardwareseitig kann man den Alarm durch den DIP Schalter Nr. 4 deaktivieren. Dieser schließt eine Verbindung zwischen 3v3 und GPIO14. 
@@ -67,7 +71,10 @@ Dafür empfiehlt es sich, die beiden Kontakte an der Stiftleiste mit einem Jumpe
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Jumper_on_motherboard.jpg" alt="Logo">
 
+<img src="images/reedswitch.png" >
 
 
 
+### BELL-SENSOR
 
+work in progress
