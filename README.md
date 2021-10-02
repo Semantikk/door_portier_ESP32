@@ -36,6 +36,7 @@ Die Stromstärke sollte dabei nicht unter 1 Ampere liegen.
 der Kondensator ist optional. 
 
 <img src="images/vcc.png" >
+(visualisierung der Verbindung auf der Platine)
 
 ### Löten
 
