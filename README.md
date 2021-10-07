@@ -6,7 +6,8 @@
 </p>
 
 
-
+Die Platine kann direkt über den link bei JLCpcb bestellt werden
+https://oshwlab.com/Pflasterboy/new-project
 
 
 
